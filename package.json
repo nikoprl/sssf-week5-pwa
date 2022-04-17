@@ -1,0 +1,19 @@
+{
+  "name": "hello-pwa",
+  "version": "1.0.0",
+  "description": "hello-pwa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikoprl/sssf-week5-pwa.git"
+  },
+  "author": "Niko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikoprl/sssf-week5-pwa/issues"
+  },
+  "homepage": "https://github.com/nikoprl/sssf-week5-pwa#readme"
+}
