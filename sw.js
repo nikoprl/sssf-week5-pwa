@@ -1,5 +1,19 @@
 var cacheName = "hello-pwa";
-var filesToCache = ["./", "./index.html", "./css/style.css", "./js/main.js"];
+var filesToCache = [
+  "./",
+  "./index.html",
+  "./css/style.css",
+  "./js/main.js",
+  "./images/hello-icon-128.png",
+  "./images/hello-icon-144.png",
+  "./images/hello-icon-152.png",
+  "./images/hello-icon-192.png",
+  "./images/hello-icon-256.png",
+  "./images/hello-icon-512.png",
+  "./images/bpvt0384ont81.png",
+  "./fonts/noto-serif-v20-latin-regular.woff2",
+  "./favicon.ico"
+];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener("install", (e) => {
